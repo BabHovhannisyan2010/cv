@@ -1,0 +1,401 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+    list-style: none;
+    scroll-behavior: smooth;
+}
+body{
+    color: black;
+    width: 100%;
+    background-repeat: no-repeat;
+}
+header{
+    position: fixed;
+    width: 100%;
+    top: 0;
+    right: 0;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: transparent;
+    padding: 22px 15%;
+    border-bottom:1px solid transparent ;
+    transition: all .45s ease;
+}
+.logo{
+    color: black;
+    font-size: 35px;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+span{
+    color: red;
+}
+.navlist{
+    display: flex;
+}
+.navlist a{
+    color: black;
+    font-size: 17px;
+    font-weight: 500;
+    margin: 0 25px;
+    transition: all .45s ease;
+}
+.navlist a:hover{
+    color: red;
+}
+.navlist a.active{
+    color: red;
+}
+#menu-icon{
+    font-size: 35px;
+    color: black;
+    z-index: 10001;
+    cursor: pointer;
+    margin-left: 25px;
+    display: none;
+}
+section{
+    padding: 160px 15% 120px;
+}
+.search{
+    background-image: url(123.jpg);
+    width: 100%;
+    height: 90vh;
+    background-repeat: no-repeat;
+    text-align: center;
+    background-size: cover;
+    background-position: top 25% right 0;
+}
+.Search-text h2{
+    font-size: 3rem;
+    line-height: 1;
+}
+.contact-form form{
+    position: relative;
+    }
+    .contact-form form input,
+    form textarea{
+        width: 100%;
+        padding: 14px;
+        color: black;
+        border: none;
+        outline: none;
+        font-size: 15px;
+        border-radius: 8px;
+        margin-bottom: 10px;
+    }
+    .contact-form  textarea{
+        resize: none;
+        height: 240px;
+    }
+    .contact-form .submit{
+        display: inline-block;
+        font-size:16px ;
+        background: #ff4d05;
+        color: #fff;
+        width: 160px;
+        transition: all .45s ease;
+    }
+    .contact-form .submit:hover{
+        transform: scale(1.1);
+        cursor: pointer;
+}
+
+.btn11{
+    display: inline-block;
+    padding: 12px 28px;
+    border-radius: 5px;
+    color: black;
+    font-size: 1rem;
+    letter-spacing: 1px ;
+    font-weight: 600;
+    transition: all .45s ease;
+}
+.btn11:hover{
+    transform: scale(0.9);
+}
+.btn12{
+    display: inline-block;
+    padding: 12px 28px;
+    border-radius: 5px;
+    color: black;
+    font-size: 1rem;
+    letter-spacing: 1px ;
+    font-weight: 600;
+    transition: all .45s ease;
+}
+.btn12:hover{
+    transform: scale(0.9);
+}
+.Search-text2{
+    display: inline-block;
+    width: 500px;
+    gap: 3.5rem;
+    margin-top: 5rem;
+}
+.Search-text2 h2{
+    font-size: 4rem;
+    line-height: 1;
+}
+.about{
+    background-image: url(White1.webp);
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    align-items: center;
+    gap: 1.5rem;
+    background-color: white;
+}
+.about-img img{
+    max-width: 530px;
+    height: auto;
+    width: 100%;
+    border-radius:8px;
+}
+.about-text h2{
+    font-size: 3rem;
+    line-height: 1;
+}
+.about-text h4{
+    font-size: 24px;
+    font-weight: 600;
+    color: black;
+    line-height: 1.7;
+    margin: 15px 0 30px;
+}
+.about-text p{
+    color: black;
+    font-size: 1.1rem;
+    line-height: 1.8;
+    margin-bottom: 4rem;
+}
+.btn{
+    display: inline-block;
+    padding: 12px 28px;
+    background: red;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 1rem;
+    letter-spacing: 1px ;
+    font-weight: 600;
+    transition: all .45s ease;
+}
+.btn:hover{
+    transform: scale(0.9);
+}
+.Menu{
+    background-color: white;
+    width: 100%;
+    height: 540vh;
+    text-align: center;
+    background-position: top 25% right 0;
+}
+.portfolio-content{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px,auto));
+    align-items: center;
+    gap: 2.5rem;
+    margin-top: 5rem;
+}
+.row{
+    position: relative;
+    overflow: hidden;
+    border-radius: 8px ;
+    cursor: pointer;
+}
+.row img{
+    width: 100%;
+    border-radius: 8px;
+    display: block;
+    transition: transform 0.5s;
+}
+.main-text{
+    text-align: center;
+}
+.main-text p{
+    color: black;
+    font-size: 15px;
+    margin-bottom: 15px;
+}
+.main-text h2{
+    font-size: 3rem;
+    line-height: 1;
+}
+.Pls{
+    border-radius: 10px;
+    padding: 40px;
+    border: solid;
+}
+.Pls p{
+    font-size: 3rem;
+}
+.Pls button{
+    background-color: red;
+    border-radius: 15px;
+    width: 130px;
+    height: 30px;
+}
+.fff{
+    transition: all .45s ease;
+}
+.fff:hover {
+    transform: scale(1.1);
+   background: white;
+}
+@media (max-width :1480px){
+    header{
+      padding: 12px 2.5%;  
+      transition: .1s ;
+    }
+    header.sticky{
+        padding: 10px 2.5%;  
+        transition: .1s ;
+    }
+    section{
+        padding: 110px 3% 60px;
+    }
+    .end{
+        padding: 15px 3%;
+    }
+}
+@media (max-width :700px){
+    .Search-text2 h2{
+        font-size: 54px;
+        width: 481px;
+    }
+}
+@media (max-width :600px)  {
+    #menu-icon{
+        display: block;
+    }
+    .navlist{
+        position: absolute;
+        top: -1000px;
+        right: 0;
+        left: 0;
+        display: flex;
+        flex-direction: column;
+        background: white;
+        text-align: left;
+        transition: all .45s ease;
+    }
+    .navlist a{
+        display: block;
+        margin: 17px;
+        font-size: 20px;
+        transition: all .45s ease;
+        color: black;
+    }
+    .navlist a:hover{
+        color: red;
+    }
+    .navlist a.active{
+        color: red;
+    }
+    .navlist.open{
+        top: 100%;
+    }
+    }
+@media (max-width :600px){
+        .Search-text2{
+            margin: 0px;
+        }
+        .Search-text2 h2{
+            font-size: 24px;
+            width: 100px;
+            margin: 0px;
+        }
+
+}
+@media (max-width :1100px)  {
+    :root{
+        --big-font : 4rem;
+        --h2-font : 2.5rem;
+        --p-font : 1rem;
+        transition: .1s;
+    }
+    .home-text h3{
+        font-size: 2.5rem;
+    }
+    .home{
+        height: 87vh;
+    }
+}
+@media (max-width :920px){
+    .about{
+        grid-template-columns: 1fr;
+    }
+    .about-img{
+        text-align: center;
+        order: 2;
+    }
+    .about-img img{
+        width: 100%;
+        height: auto;
+        max-width: 100%;
+    }
+    .contact{
+        grid-template-columns: 1fr;
+    }
+}
+@media (max-width :840px){
+    #menu-icon{
+        display: block;
+    }
+    .navlist{
+        position: absolute;
+        top: -1000px;
+        right: 0;
+        left: 0;
+        display: flex;
+        flex-direction: column;
+        background: red;
+        text-align: left;
+        transition: all .45s ease;
+    }
+    .navlist a{
+        display: block;
+        margin: 17px;
+        font-size: 20px;
+        transition: all .45s ease;
+        color: #fff;
+    }
+    .navlist a:hover{
+        color: #ff4d05;
+    }
+    .navlist a.active{
+        color: #fff;
+    }
+    .navlist.open{
+        top: 100%;
+
+    }
+}
+@media (max-width :1120px){
+    .contact{
+        width: 1000px;
+    }
+}
+@media (max-width :380px){
+    .Pls{
+        width: 300px;
+    }
+    .row img{
+        width: 300px;
+    }
+}
+@media (max-width :325px){
+    .Pls{
+        width: 250px;
+    }
+    .row img{
+        width: 250px;
+    }
+    .Pls p{
+        width: 130px;
+    }
+}
