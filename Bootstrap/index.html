@@ -1,1 +1,352 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg bg-dark ">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#" style="color: white;"><i class='bx bxs-plane-alt'style="color: black;"></i>Tickets</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon" style="background-color: white;"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#products" style="color: white;">Products</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#price" style="color: white;">Price</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false" style="color: white;">
+                      Dropdown
+                    </a>
+                    <ul class="dropdown-menu bg-dark">
+                      <li><a id="123123" class="dropdown-item"  style="color: white;" href="#">USA</a></li>
+                      <li><a  id="123123" class="dropdown-item" style="color: white;" href="#">America</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li> <a id="123123" class="dropdown-item" style="color: white;" href="#">Something else For You</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link disabled" style="color: white;">Disabled</a>
+                  </li>
+                </ul>
+                <form class="d-flex" role="search">
+                  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                  <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+              </div>
+            </div>
+          </nav>
+    </header>
 
+    <section id="products">
+        <div id="carouselExampleDark" class="carousel carousel-dark slide">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active" data-bs-interval="10000">
+                <img  id="abc" src="4.jpg" class="d-block w-100" style="height:1100px ; " alt="...">
+              </div>
+              <div class="carousel-item" data-bs-interval="2000">
+                <img  id="abc" src="5.jpg" class="d-block w-100" style="height:1100px ; "  alt="...">
+              </div>
+              <div class="carousel-item">
+                <img  id="abc" src="6.jpg" class="d-block w-100" style="height:1100px ; "  alt="...">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+    </section>
+
+
+
+
+      <section class="products" id="price">
+
+        <h1 class="heading">Shop <span style="color: aqua;"> Price</span></h1>
+
+        <div class="box-container">
+
+            <div class="box">
+                <span class="discount">-35%</span>
+                <div class="image">
+                    <img src="2.jpg" alt="">
+                    <div class="icons">
+                        <a href="#"><i class='bx bxs-like'></i></a>
+                        <a href="#" class="cart-btn">Add To Cart</a>
+                        <a href="#" class="fas fa-share"></a>
+                    </div>
+                </div>
+                <div class="content">
+                    <h3>Dubai</h3>
+                    <div class="price">$227,5<span>$350</span></div>
+                </div>
+            </div>
+
+            <div class="box">
+                <span class="discount">-15%</span>
+                <div class="image">
+                    <img src="1.jpg" alt="">
+                    <div class="icons">
+                        <a href="#"><i class='bx bxs-like'></i></a>
+                        <a href="#" class="cart-btn">Add To Cart</a>
+                        <a href="#" class="fas fa-share"></i></a>
+                    </div>
+                </div>
+                <div class="content">
+                    <h3>Egypt</h3>
+                    <div class="price">$170<span>$200</span></div>
+                </div>
+            </div>
+
+            <div class="box">
+                <span class="discount">-5%</span>
+                <div class="image">
+                    <img src="3.jpg" alt="">
+                    <div class="icons">
+                        <a href="#"><i class='bx bxs-like'></i></a>
+                        <a href="#" class="cart-btn">Add To Cart</a>
+                        <a href="#" class="fas fa-share"></i></a>
+                    </div>
+                </div>
+                <div class="content">
+                    <h3>Sahara</h3>
+                    <div class="price">$142,5 <span>$150</span></div>
+                </div>
+            </div>
+
+
+            <div class="box">
+                <span class="discount">-50%</span>
+                <div class="image">
+                    <img src="4.jpg" alt="">
+                    <div class="icons">
+                        <a href="#"><i class='bx bxs-like'></i></a>
+                        <a href="#" class="cart-btn">Add To Cart</a>
+                        <a href="#" class="fas fa-share"></a>
+                    </div>
+                </div>
+                <div class="content">
+                    <h3>Korea</h3>
+                    <div class="price">$1000<span>$2000</span></div>
+                </div>
+            </div>
+
+            <div class="box">
+                <span class="discount">-25%</span>
+                <div class="image">
+                    <img src="5.jpg" alt="">
+                    <div class="icons">
+                        <a href="#"><i class='bx bxs-like'></i></a>
+                        <a href="#" class="cart-btn">Add To Cart</a>
+                        <a href="#" class="fas fa-share"></i></a>
+                    </div>
+                </div>
+                <div class="content">
+                    <h3>USA</h3>
+                    <div class="price">$1125<span>$1500</span></div>
+                </div>
+            </div>
+
+            <div class="box">
+                <span class="discount">-15%</span>
+                <div class="image">
+                    <img src="6.jpg" alt="">
+                    <div class="icons">
+                        <a href="#"><i class='bx bxs-like'></i></a>
+                        <a href="#" class="cart-btn">Add To Cart</a>
+                        <a href="#" class="fas fa-share"></i></a>
+                    </div>
+                </div>
+                <div class="content">
+                    <h3>Singapore</h3>
+                    <div class="price">$1445<span>$1700</span></div>
+                </div>
+            </div>
+
+            <div class="box">
+                <span class="discount">-35%</span>
+                <div class="image">
+                    <img src="7.jpg" alt="">
+                    <div class="icons">
+                        <a href="#"><i class='bx bxs-like'></i></a>
+                        <a href="#" class="cart-btn">Add To Cart</a>
+                        <a href="#" class="fas fa-share"></a>
+                    </div>
+                </div>
+                <div class="content">
+                    <h3>Tailand</h3>
+                    <div class="price">$910<span>$1400</span></div>
+                </div>
+            </div>
+
+            <div class="box">
+                <span class="discount">-15%</span>
+                <div class="image">
+                    <img src="8.jpg" alt="">
+                    <div class="icons">
+                        <a href="#"><i class='bx bxs-like'></i></a>
+                        <a href="#" class="cart-btn">Add To Cart</a>
+                        <a href="#" class="fas fa-share"></i></a>
+                    </div>
+                </div>
+                <div class="content">
+                    <h3>America</h3>
+                    <div class="price">$1275<span>$1500</span></div>
+                </div>
+            </div>
+
+            <div class="box">
+                <span class="discount">-25%</span>
+                <div class="image">
+                    <img src="9.jpg" alt="">
+                    <div class="icons">
+                        <a href="#"><i class='bx bxs-like'></i></a>
+                        <a href="#" class="cart-btn">Add To Cart</a>
+                        <a href="#" class="fas fa-share"></i></a>
+                    </div>
+                </div>
+                <div class="content">
+                    <h3>Russia</h3>
+                    <div class="price">$112,5<span>$150</span></div>
+                </div>
+            </div>
+
+
+            <div class="box">
+                <span class="discount">-50%</span>
+                <div class="image">
+                    <img src="10.jpg" alt="">
+                    <div class="icons">
+                        <a href="#"><i class='bx bxs-like'></i></a>
+                        <a href="#" class="cart-btn">Add To Cart</a>
+                        <a href="#" class="fas fa-share"></a>
+                    </div>
+                </div>
+                <div class="content">
+                    <h3>Litvia</h3>
+                    <div class="price">$175<span>$350</span></div>
+                </div>
+            </div>
+
+            <div class="box">
+                <span class="discount">-25%</span>
+                <div class="image">
+                    <img src="11.jpeg" alt="">
+                    <div class="icons">
+                        <a href="#"><i class='bx bxs-like'></i></a>
+                        <a href="#" class="cart-btn">Add To Cart</a>
+                        <a href="#" class="fas fa-share"></i></a>
+                    </div>
+                </div>
+                <div class="content">
+                    <h3>Japan</h3>
+                    <div class="price">$1350<span>$1800</span></div>
+                </div>
+            </div>
+
+            <div class="box">
+                <span class="discount">-15%</span>
+                <div class="image">
+                    <img src="12.jpg" alt="">
+                    <div class="icons">
+                        <a href="#"><i class='bx bxs-like'></i></a>
+                        <a href="#" class="cart-btn">Add To Cart</a>
+                        <a href="#" class="fas fa-share"></i></a>
+                    </div>
+                </div>
+                <div class="content">
+                    <h3>Turkey</h3>
+                    <div class="price">$425<span>$500</span></div>
+                </div>
+            </div>
+        </section>
+
+
+        <section class="rewiew" id="rewiew">
+
+            <h1 class="heading">Customers <span>Rewiew</span></h1>
+    
+            <div class="box-container">
+    
+                <div class="box">
+                    <div class="starts">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatem dolor ad placeat minima dolores aliquid nulla doloremque maiores consequatur itaque hic dolorum ut distinctio, harum sed voluptatibus nihil. Deserunt, laboriosam?</p>
+                    <div class="user">
+                        <img src="rewiew img-1.jpg" alt="" >
+                        <div class="user-info">
+                            <h3>ILON Mask</h3>
+                            <span>Creator Tesla</span>
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="box">
+                    <div class="starts">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatem dolor ad placeat minima dolores aliquid nulla doloremque maiores consequatur itaque hic dolorum ut distinctio, harum sed voluptatibus nihil. Deserunt, laboriosam?</p>
+                    <div class="user">
+                        <img src="rewiew img-2.webp" alt="" >
+                        <div class="user-info">
+                            <h3>Bill Gates</h3>
+                            <span>Creator IT</span>
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="box">
+                    <div class="starts">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatem dolor ad placeat minima dolores aliquid nulla doloremque maiores consequatur itaque hic dolorum ut distinctio, harum sed voluptatibus nihil. Deserunt, laboriosam?</p>
+                    <div class="user">
+                        <img src="rewiew img-3.jpg" alt="" >
+                        <div class="user-info">
+                            <h3>Mr Beast</h3>
+                            <span>Popular YouTuber</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        
+
+<script src="app.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+</body>
+</html>
